@@ -333,7 +333,6 @@ backdrop-filter: blur(52px);
 }
 .section-2{
   background: #F9F9F9;
-;
   color: var(--richblack-700);
 }
 
@@ -365,4 +364,59 @@ backdrop-filter: blur(52px);
   width: 714;
   height: 545;
   box-shadow: 20px 20px 0px 0px #FFFFFF;
+}
+
+
+.timeline{
+position: absolute;
+width: 511px;
+height: 128px;
+gap: 52px;
+padding: 42px;
+bottom: 0;
+transform: translate(-50%, 50%);
+background: var(--caribbeangreen-700);
+z-index: 999;
+}
+
+.timeline-divider {
+  width: 1px;             
+  height: 44px;           
+  transform: rotate(0deg);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--caribbeangreen-500); 
+  margin: auto;
+}
+
+.timeline p{
+font-family: var(--font-inter);
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+color: var(--caribbeangreen-300);
+}
+
+.timeline h2{
+font-family: var(--font-inter);
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+letter-spacing: -2%;
+text-align: center;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+.language p{
+font-family: var(--font-inter);
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+color: var(--richblack-700);
 }

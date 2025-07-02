@@ -30,7 +30,7 @@ const TimelineSection = () => {
       ];
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5">
   <div className="d-flex flex-column flex-lg-row gap-3 align-items-center w-100">
     
     {/* Timeline Content */}
@@ -80,13 +80,27 @@ const TimelineSection = () => {
     </div>
 
     {/* Timeline Image - Responsive */}
-    <div className="timeline-img w-100 w-lg-50 mt-4 mt-lg-0">
+   <div className="timeline-img d-flex justify-content-center position-relative w-100 w-lg-50 mt-4 mt-lg-0">
       <img
         src={TimeLineImage}
         alt="Timeline"
         className="img-fluid d-block mx-auto"
         style={{ maxWidth: "100%", height: "auto" }}
       />
+      <div className="timeline d-flex flex-row justify-content-center start-50 text-white px-4 py-2 rounded">
+      {/* Timeline content here */}
+     <div className="d-flex flex-row m-3 align-items-center justify-content-center ">
+       <div className="d-flex flex-row gap-1 me-5 align-items-center justify-content-center">
+        <h2 className='mt-3'>10</h2>
+        <p className='fw-light fs-6 ms-3 mt-3'>YEARS <br/>EXPERIENCES</p>
+      </div>
+      <div className="timeline-divider"></div>
+      <div className="d-flex flex-row gap-1 ms-5">
+        <h2 className='mt-3'>250</h2>
+        <p className='fw-light fs-6 ms-3 mt-3'>TYPES OF <br/>COURSES</p>
+      </div>
+     </div>
+    </div>
     </div>
     
 
