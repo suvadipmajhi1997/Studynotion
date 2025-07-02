@@ -84,7 +84,7 @@ const Home = () => {
                 active: false,
               }}
               codeColor={"text-yellow-25"}
-              codeBlock={`<!DOCTYPE html>\n<html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a>\n</nav>\n</body>\n`}
+              codeBlock={`<!DOCTYPE html>\n<html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a>\n</nav>\n</body>`}
               color={<div className="codeblock1"></div>}
             />
           </div>
@@ -114,7 +114,7 @@ const Home = () => {
                 active: false,
               }}
               codeColor={"text-white"}
-              codeBlock={`<!DOCTYPE html>\n<html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a>\n</nav>\n</body>\n`}
+              codeBlock={`<!DOCTYPE html>\n<html lang="en">\n<head>\n<title>This is myPage</title>\n</head>\n<body>\n<h1><a href="/">Header</a></h1>\n<nav> <a href="/one">One</a> <a href="/two">Two</a>\n</nav>\n</body>`}
               color={<div className="codeblock2"></div>}
             />
           </div>
@@ -141,7 +141,7 @@ const Home = () => {
         <div className="container">
           <div className="d-flex flex-column justify-content-center align-items-center mt-5 ">
             <div className="content">
-              <div className="d-flex flex-column flex-lg-row w-100">
+              <div className="d-flex flex-column flex-lg-row w-100 mx-lg-5 mx-3">
                 <div className="w-100 w-lg-50">
                   <div className="display-5 fw-semibold">
                     <h1 style={{ width: "90%" }}>

@@ -40,7 +40,7 @@ const TimelineSection = () => {
 
         return (
           <div
-            className="d-flex flex-row w-lg-100 gap-3 ms-5 position-relative"
+            className="d-flex flex-row w-lg-100 gap-3 position-relative"
             key={idx}
           >
             {/* Icon + Line Container */}
@@ -68,8 +68,8 @@ const TimelineSection = () => {
             </div>
 
             {/* Text Content */}
-            <div className="d-flex align-items-center justify-content-center mt-0">
-              <div className="d-flex flex-column mx-5">
+            <div className="d-flex align-items-center justify-content-center mt-0 w-100">
+              <div className="d-flex flex-column mx-0 mx-lg-5 w-100">
                 <h4>{ele.Heading}</h4>
                 <p>{ele.Description}</p>
               </div>
