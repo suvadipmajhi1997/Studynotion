@@ -141,7 +141,7 @@ const Home = () => {
         <div className="container">
           <div className="d-flex flex-column justify-content-center align-items-center mt-5 ">
             <div className="content">
-              <div className="d-flex flex-column flex-lg-row w-100 m-5 ">
+              <div className="d-flex flex-column flex-lg-row w-100">
                 <div className="w-100 w-lg-50">
                   <div className="display-5 fw-semibold">
                     <h1 style={{ width: "90%" }}>
