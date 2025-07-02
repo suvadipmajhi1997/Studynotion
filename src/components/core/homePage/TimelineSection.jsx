@@ -58,8 +58,8 @@ const TimelineSection = () => {
                 <div
                   className="position-absolute border-start border border-dotted"
                   style={{
-                    top: "46px",
-                    height: "calc(100% - 16px)",
+                    top: "70px",
+                    height: "calc(100% - 12px)",
                     width: "2px",
                     borderColor: "#E6E6E6",
                   }}
@@ -89,6 +89,9 @@ const TimelineSection = () => {
       />
     </div>
     
+
+
+
   </div>
 </div>
 
