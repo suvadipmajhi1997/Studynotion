@@ -90,14 +90,14 @@ const TimelineSection = () => {
       <div className="timeline d-flex flex-row justify-content-center start-50 text-white px-4 py-2 rounded">
       {/* Timeline content here */}
      <div className="d-flex flex-row m-3 align-items-center justify-content-center ">
-       <div className="d-flex flex-row gap-1 me-5 align-items-center justify-content-center">
+       <div className="d-flex flex-row gap-1 align-items-center justify-content-center">
         <h2 className='mt-3'>10</h2>
         <p className='fw-light fs-6 ms-3 mt-3'>YEARS <br/>EXPERIENCES</p>
       </div>
-      <div className="timeline-divider"></div>
-      <div className="d-flex flex-row gap-1 ms-5">
+      <div className="timeline-divider mx-3 mx-lg-5"></div>
+      <div className="d-flex flex-row gap-1 align-items-center justify-content-center">
         <h2 className='mt-3'>250</h2>
-        <p className='fw-light fs-6 ms-3 mt-3'>TYPES OF <br/>COURSES</p>
+        <p className='fw-light fs-6 mt-3 ms-3'>TYPES OF <br/>COURSES</p>
       </div>
      </div>
     </div>
