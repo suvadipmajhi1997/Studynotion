@@ -8,6 +8,7 @@ import CTAButton from '../components/core/homePage/CTAButton';
 import CodeBlocks from '../components/core/homePage/CodeBlocks';
 import TimelineSection from '../components/core/homePage/TimelineSection';
 import LearningLanguageSection from '../components/core/homePage/LearningLanguageSection';
+import instructorImg from '../assets/Images/Instructor.png'
 
 const Home = () => {
   return (
@@ -173,6 +174,37 @@ const Home = () => {
         </div>
 
       </div>
+ 
+       {/* become an instructor */}
+
+       <div className="instructor-section">
+        <div className="d-flex flex-column flex-lg-row w-100 gap-5 mb-5">
+          <div className="img">
+            <img src={instructorImg} alt="" className='img-fluid'/>
+          </div>
+          <div className="d-flex flex-column justify-content-center align-items-start instructor-content col-12 col-lg-5 ms-lg-5">
+            <div className="display-5 fw-semibold text-white instructor">
+                  <h1>
+                    Become an <br/>
+                    <HighlightText text={" Instructor"} />
+                  </h1>
+                </div>
+                <p className='d-flex w-100 w-lg-50'>Instructors from around the world 
+                  teach millions of students on StudyNotion.
+                   We provide the tools and skills to teach what you love.
+                </p>
+                <div className="d-flex gap-3 mt-5">
+          <CTAButton  active={true}>
+            <div className="d-flex align-items-center gap-2">
+              {"Start Teaching Today"}
+              <FaArrowRight />
+            </div>
+          </CTAButton>
+          </div>
+          </div>
+        </div>
+       </div>
+
     </div>
   );
 };
