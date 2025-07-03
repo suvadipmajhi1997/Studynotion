@@ -467,7 +467,7 @@ color: var(--richblack-700);
 
 @media (max-width: 576px){
   .course-img-1{
-    margin-left: 0;
+    margin-left: -9rem;
 }
 
 }

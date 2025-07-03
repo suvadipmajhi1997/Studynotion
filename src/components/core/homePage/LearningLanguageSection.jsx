@@ -41,7 +41,7 @@ const LearningLanguageSection = () => {
           className="course-img-3"
         />
       </div>
-      <div className="w-10 mx-auto">
+      <div className="w-10 mx-auto mb-5">
             <CTAButton active={true} linkto={"/signup"}>
               <div className="">Learn More</div>
             </CTAButton>
