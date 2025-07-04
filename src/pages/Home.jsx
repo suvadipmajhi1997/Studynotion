@@ -153,7 +153,10 @@ const Home = () => {
                 </div>
 
                 <div className="w-100 w-lg-50 d-flex flex-column align-items-start gap-lg-3 gap-1">
-                  <p style={{ width: "80%" }} className='d-flex align-items-center'>
+                  <p
+                    style={{ width: "80%" }}
+                    className="d-flex align-items-center"
+                  >
                     The modern StudyNotion dictates its own terms. Today, to be
                     a competitive specialist requires more than professional
                     skills.
@@ -165,45 +168,53 @@ const Home = () => {
               </div>
             </div>
 
-          {/* Timeline Section - Section 2 */}
-          <TimelineSection />
+            {/* Timeline Section - Section 2 */}
+            <TimelineSection />
 
-           {/* Learning Language Section - Section 3 */}
-          <LearningLanguageSection />
+            {/* Learning Language Section - Section 3 */}
+            <LearningLanguageSection />
           </div>
         </div>
-
       </div>
- 
-       {/* become an instructor */}
 
-       <div className="instructor-section">
+      {/* become an instructor */}
+
+      <div className="instructor-section">
         <div className="d-flex flex-column flex-lg-row w-100 gap-5 mb-5">
           <div className="img">
-            <img src={instructorImg} alt="" className='img-fluid'/>
+            <img src={instructorImg} alt="" className="img-fluid" />
           </div>
           <div className="d-flex flex-column justify-content-center align-items-start instructor-content col-12 col-lg-5 ms-lg-5">
             <div className="display-5 fw-semibold text-white instructor">
-                  <h1>
-                    Become an <br/>
-                    <HighlightText text={" Instructor"} />
-                  </h1>
-                </div>
-                <p className='d-flex w-100 w-lg-50'>Instructors from around the world 
-                  teach millions of students on StudyNotion.
-                   We provide the tools and skills to teach what you love.
-                </p>
-                <div className="d-flex gap-3 mt-5">
-          <CTAButton  active={true}>
-            <div className="d-flex align-items-center gap-2">
-              {"Start Teaching Today"}
-              <FaArrowRight />
+              <h1>
+                Become an <br />
+                <HighlightText text={" Instructor"} />
+              </h1>
             </div>
-          </CTAButton>
-          </div>
+            <p className="d-flex w-100 w-lg-50">
+              Instructors from around the world teach millions of students on
+              StudyNotion. We provide the tools and skills to teach what you
+              love.
+            </p>
+            <div className="d-flex gap-3 mt-5">
+              <CTAButton active={true}>
+                <div className="d-flex align-items-center gap-2">
+                  {"Start Teaching Today"}
+                  <FaArrowRight />
+                </div>
+              </CTAButton>
+            </div>
           </div>
         </div>
-       </div>
+      </div>
+
+      {/* review slider */}
+
+      <div className="container">
+        <div className="d-flex flex-column align-items-center">
+          <h2 className='text-center fw-semibold mt-5 mb-5 text-white'>Review from others learners</h2>
+        </div>
+      </div>
 
     </div>
   );

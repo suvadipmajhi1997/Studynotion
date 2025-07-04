@@ -548,5 +548,22 @@ height: 545px;
   width: 80%;
   margin: 2rem;
 }
+}
 
+.bg-richblack-800{
+  background-color: var(--richblack-800);
+}
+
+.text-richblack-400{
+  color: var(--richblack-400);
+}
+
+.border-richblack-700{
+  color: var(--richblack-700);
+}
+
+@media (min-width: 992px) {
+  .w-lg-30 {
+    width: 30%;
+  }
 }
