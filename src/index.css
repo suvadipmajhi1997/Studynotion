@@ -567,3 +567,34 @@ height: 545px;
     width: 30%;
   }
 }
+
+.courseTab{
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.courseTab:hover{
+  cursor: pointer;
+}
+
+@media (min-width:991px) {
+  .course-card{
+    height: 200px;
+  }
+}
+
+.card-shadow{
+  box-shadow: 12px 12px 0px 0px #FFD60A;
+}
+.navbar{
+  background: var(--richblack-900) !important;
+  justify-content: space-evenly !important;
+}
+
+.nav-item .nav-link{
+  color: var(--richblack-5);
+}
+
+.container{
+  justify-content: space-evenly !important;
+}

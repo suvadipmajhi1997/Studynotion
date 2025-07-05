@@ -9,6 +9,7 @@ import CodeBlocks from '../components/core/homePage/CodeBlocks';
 import TimelineSection from '../components/core/homePage/TimelineSection';
 import LearningLanguageSection from '../components/core/homePage/LearningLanguageSection';
 import instructorImg from '../assets/Images/Instructor.png'
+import ExpolreMore from '../components/core/homePage/ExpolreMore';
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
           <div className="content">
             <div className="content-items">
               <h1>
-                Empower Your Future with{" "}
+                Empower Your Future with
                 <HighlightText text={"Coding Skills "} />
               </h1>
               <p>
@@ -120,7 +121,12 @@ const Home = () => {
             />
           </div>
         </div>
+        
+          <ExpolreMore/>
       </div>
+
+      
+        
 
       {/* section 2 */}
       <div className="section-2 ">
