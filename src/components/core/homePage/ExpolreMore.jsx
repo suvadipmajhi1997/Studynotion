@@ -47,7 +47,7 @@ const ExploreMore = () => {
         })}
       </div>
 
-      <div className="course-card-space"></div>
+
 
       {/* course card */}
       <div className="course-card d-flex flex-wrap mt-lg-5 mt-5">

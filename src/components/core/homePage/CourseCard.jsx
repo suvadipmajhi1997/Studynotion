@@ -20,7 +20,7 @@ const CourseCard = ({ cardData, currentCard, setCurrentCard }) => {
         color: isActive ? "#1c1c1e" : "#e4e4e7",
       }}
     >
-      {/* Top Section */}
+      {/* Top  */}
       <div
         className="border-bottom border-2 border-dashed"
         style={{
@@ -36,7 +36,7 @@ const CourseCard = ({ cardData, currentCard, setCurrentCard }) => {
           className="fw-semibold"
           style={{
             fontSize: "20px",
-            color: isActive ? "#1c1c1e" : "#e4e4e7", // dynamic heading color
+            color: isActive ? "#1c1c1e" : "#e4e4e7", //heading color
           }}
         >
           {cardData?.heading}
@@ -47,10 +47,10 @@ const CourseCard = ({ cardData, currentCard, setCurrentCard }) => {
         </div>
       </div>
 
-      {/* Bottom Section */}
+      {/* Bottom */}
       <div
         className="d-flex justify-content-between px-4 py-3 fw-medium"
-        style={{ color: isActive ? "#93c5fd" : "#6b7280" /* blue-300 vs richblack-300 */ }}
+        style={{ color: isActive ? "#93c5fd" : "#6b7280" /* blue-300 or richblack-300 */ }}
       >
         <div className="d-flex align-items-center gap-2" style={{ fontSize: "16px" }}>
           <HiUsers />

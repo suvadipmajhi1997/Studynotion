@@ -27,12 +27,12 @@ const Home = () => {
           </Link>
 
           <div className="content">
-            <div className="content-items">
-              <h1>
+            <div className="content-items ">
+              <h1 className='text-start text-lg-center'>
                 Empower Your Future with
                 <HighlightText text={"Coding Skills "} />
               </h1>
-              <p>
+              <p className='text-start text-lg-center'>
                 With our online coding courses, you can learn at your own pace,
                 from anywhere in the world, and get access to a wealth of
                 resources, including hands-on projects, quizzes, and
