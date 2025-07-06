@@ -595,6 +595,27 @@ height: 545px;
   color: var(--richblack-5);
 }
 
-.container{
-  justify-content: space-evenly !important;
+/* Make dropdown background white */
+.dropdown-menu {
+  background-color: #ffffff !important;
+  border: 1px solid #dee2e6;
 }
+
+/* Ensure dropdown items have black text */
+.dropdown-item {
+  color: #000000 !important;
+}
+
+/* Optional: Change hover effect */
+.dropdown-item:hover {
+  background-color: #f8f9fa !important;
+  color: #000 !important;
+}
+
+    @media (max-width: 991.98px) {
+      .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
