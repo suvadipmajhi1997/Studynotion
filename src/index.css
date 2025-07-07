@@ -619,3 +619,21 @@ height: 545px;
         transform: translateX(-50%);
       }
     }
+
+    .text-yellow-100{
+      color: var(--yellow-100);
+    }
+
+.swiper-slide {
+  overflow: visible !important;
+}
+
+.react-stars {
+  display: flex;
+  font-size: 24px; /* ensure it's visible */
+  color: #fff;
+}
+
+.fa-star {
+  color: #ffffff !important;
+}

@@ -10,6 +10,7 @@ import TimelineSection from '../components/core/homePage/TimelineSection';
 import LearningLanguageSection from '../components/core/homePage/LearningLanguageSection';
 import instructorImg from '../assets/Images/Instructor.png'
 import ExpolreMore from '../components/core/homePage/ExpolreMore';
+import ReviewSlider from '../components/ReviewSlider';
 
 const Home = () => {
   return (
@@ -218,9 +219,10 @@ const Home = () => {
 
       <div className="container">
         <div className="d-flex flex-column align-items-center">
-          <h2 className='text-center fw-semibold mt-5 mb-5 text-white'>Review from others learners</h2>
+          <h2 className='text-center fw-semibold mb-5 text-white'>Review from others learners</h2>
         </div>
       </div>
+      <ReviewSlider/>
 
     </div>
   );

@@ -21,7 +21,7 @@ const Community = ["Forums", "Chapters", "Events"];
 
 const Footer = () => {
   return (
-    <div className="bg-dark text-light">
+    <div className="bg-dark text-light mt-5">
       <div className="container py-5 border-bottom border-secondary">
         <div className="row g-4">
           {/* Section 1 */}
