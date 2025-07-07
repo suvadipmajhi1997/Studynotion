@@ -2,7 +2,7 @@
 
 export const reviews = [
     {
-        id:1,
+        
         name:'Suvadip Majhi',
         email:'Example@gmail.com',
         Image:'/r1.jpg',
@@ -10,7 +10,7 @@ export const reviews = [
         comment: "Great course! Explained complex topics clearly with practical examples and hands-on projects.",
     },
     {
-        id:2,
+        
         name:'Shayani biswas',
         email:'Example@gmail.com',
         Image:'/r2.jpg',
@@ -18,7 +18,7 @@ export const reviews = [
         comment: "Helpful for revision, but lacks depth in advanced concepts like optimization and testing.",
     },
     {
-        id:3,
+        
         name:'Aritra Bhowmick',
         email:'Example@gmail.com',
         Image:'/r3.enc',
@@ -26,7 +26,7 @@ export const reviews = [
         comment: "Well-structured and informative course—helped me build real-world projects with confidence",
     },
     {
-        id:4,
+        
         name:'Meghna Samanta',
         email:'Example@gmail.com',
         Image:'/',
@@ -34,11 +34,19 @@ export const reviews = [
         comment: "Perfect for beginners—covers basics to advanced with easy-to-follow explanations and examples.",
     },
     {
-        id:6,
+        
         name:'Sathi Mallick',
         email:'Example@gmail.com',
         Image:'/r4.enc',
         rating: 4,
+        comment: "Good content but some topics needed more depth and real-world implementation examples",
+    },
+    {
+        
+        name:'Anurita Ghosh',
+        email:'Example@gmail.com',
+        Image:'/r6.enc',
+        rating: 4.5,
         comment: "Good content but some topics needed more depth and real-world implementation examples",
     },
 ]

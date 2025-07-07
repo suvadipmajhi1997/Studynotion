@@ -71,9 +71,9 @@ const Nav = () => {
           </div>
 
          {/* right icons */}
-         <div className="d-flex align-items-center gap-2" style={{color:"white"}}>
-          <CiSearch size={24}/>
-          <PiShoppingCartThin size={24}/>
+         <div className="d-flex align-items-center gap-4" style={{color:"white"}}>
+          <CiSearch className='d-none d-lg-inline' size={24}/>
+          <PiShoppingCartThin className='d-none d-lg-inline' size={24}/>
           <FaRegCircleUser size={24}/>
          </div>
         </div>
